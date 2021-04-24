@@ -15,7 +15,7 @@ void Log::warn(const char* message)
 {
 	if (m_log_level >= level_warning)
 		std::cout << "[Warning]: " << message << std::endl;
-}
+}//qlqr em algum canto
 void Log::info(const char* message)
 {
 	if (m_log_level >= level_info)
